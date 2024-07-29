@@ -13,7 +13,6 @@ namespace ProjetoCRUD.Controllers
 
             // Dessa forma é como colocamos dados manualmente nos objetos.
             home.Nome = "Pedro";
-            home.Email = "pedrodebrito2202@gmail.com";
 
             return View(home);
         }
