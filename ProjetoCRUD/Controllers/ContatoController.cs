@@ -15,5 +15,18 @@ namespace ProjetoCRUD.Controllers
 
             return View(contato);
         }
+
+        public IActionResult Criar()
+        {
+            return View(); 
+        }
+        public IActionResult Editar()
+        {
+            return View();
+        }
+        public IActionResult Deletar()
+        {
+            return View();
+        }
     }
 }

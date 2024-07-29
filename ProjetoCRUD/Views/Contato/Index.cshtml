@@ -9,7 +9,7 @@
     <thead>
         <tr>
             <th scope="col">
-                <a role="button" class="btn btn-success">Novo</a>
+                <a role="button" class="btn btn-success" asp-controller="Contato" asp-action="Criar">Novo</a>
             </th>
             <th scope="col">Nome</th>
             <th scope="col">Sobrenome</th>
@@ -25,8 +25,8 @@
             <td>@Model.Celular</td>
             <td>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <a role="button" class="btn btn-primary">Editar</a>
-                    <a role="button" class="btn btn-danger">Deletar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="Deletar">Deletar</a>
                 </div>
             </td>
         </tr>
@@ -37,8 +37,8 @@
             <td>@Model.Celular</td>
             <td>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <a role="button" class="btn btn-primary">Editar</a>
-                    <a role="button" class="btn btn-danger">Deletar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="Deletar">Deletar</a>
                 </div>
             </td>
         </tr>
@@ -49,8 +49,8 @@
             <td>@Model.Celular</td>
             <td>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <a role="button" class="btn btn-primary">Editar</a>
-                    <a role="button" class="btn btn-danger">Deletar</a>
+                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="Deletar">Deletar</a>
                 </div>
             </td>
         </tr>

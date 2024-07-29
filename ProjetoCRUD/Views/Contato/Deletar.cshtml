@@ -1,0 +1,11 @@
+﻿@* Dessa forma estamos falando que os dados inseridos nos objetos da model serão retornados nessa página *@
+@model ContatoModel
+@{
+    ViewData["Title"] = "Exclusão de contatos";
+}
+<div class="text-center">
+    <h3>Deseja apagar o contato @Model.Nome ?<h3>
+</div>
+
+<a class="btn btn-primary" role="button">Confirmar exclusão</a>
+<a class="btn btn-danger" role="button">Cancelar exclusão</a>

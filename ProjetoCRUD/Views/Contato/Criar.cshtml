@@ -1,0 +1,28 @@
+﻿@* Dessa forma estamos falando que os dados inseridos nos objetos da model serão retornados nessa página *@
+@model ContatoModel
+@{
+    ViewData["Title"] = "Cadastro de contatos";
+}
+<div class="text-center">
+    <h1 class="display-4">Cadastrar contatos</h1>
+</div>
+<form>
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" placeholder="Digite seu Nome">
+    </div>
+
+    <div class="form-group">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" class="form-control" placeholder="Digite seu Sobrenome">
+    </div>
+
+    <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="text" class="form-control" placeholder="Digite seu Telefone">
+    </div>
+
+  <button type="submit" class="btn btn-primary">Salvar</button>
+  <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Index">Voltar</a>
+</form>
