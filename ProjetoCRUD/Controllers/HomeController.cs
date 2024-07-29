@@ -8,7 +8,12 @@ namespace ProjetoCRUD.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            HomeModel home = new HomeModel();
+
+            home.Nome = "Pedro";
+            home.Email = "pedrodebrito2202@gmail.com";
+
+            return View(home);
         }
 
         public IActionResult Privacy()
