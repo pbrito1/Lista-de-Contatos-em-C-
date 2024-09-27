@@ -1057,6 +1057,12 @@
         <mxCell id="TYVJVhJxcFxrMamdYb4d-8" value="" style="line;strokeWidth=4;direction=south;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=#ffffff;fillColor=none;fontFamily=Verdana;fontSize=28;fontColor=#6881B3;strokeColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="2784" y="2360" width="10" height="185" as="geometry" />
         </mxCell>
+        <mxCell id="TYVJVhJxcFxrMamdYb4d-10" value="" style="line;strokeWidth=4;direction=south;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=#ffffff;fillColor=none;fontFamily=Verdana;fontSize=28;fontColor=#6881B3;strokeColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="2454" y="1368" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="TYVJVhJxcFxrMamdYb4d-9" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="2419" y="1368" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
